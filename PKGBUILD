@@ -2,13 +2,12 @@
 
 pkgname=cgmanager-s6serv
 pkgver=0.1
-pkgrel=2
+pkgrel=3
 pkgdesc="cgmanager service for s6"
 arch=(x86_64)
 license=('beerware')
 depends=('cgmanager' 's6' 's6-rc' 's6-boot')
 conflicts=()
-install=cgmanager-s6serv.install
 source=('cgmanager.daemon.run.s6'	
 		'cgmanager.log.run.s6'
 		'cgmanager.logd'
